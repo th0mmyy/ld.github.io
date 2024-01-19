@@ -1,0 +1,114 @@
+body {
+  font-family: "Arial, sans-serif";
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Verdana, sans-serif";
+  margin: 0;
+  text-align: center;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  background-color: #ffe4c4;
+  padding: 0px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+
+#navbar img {
+  height: 50px;
+}
+.header {
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+  display: block;
+}
+
+.header-text {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  color: black;
+  border-radius: 10px;
+  border: 6px solid #ffe4c4;
+  background-color: #ffe4c4;
+}
+
+.container-principale {
+  max-width: 1920px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+.page-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.section img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.section-left,
+.section-right {
+  flex: 1;
+  padding: 0 20px;
+}
+
+#progetto h4 {
+  text-align: left;
+}
+
+.footer {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.team-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-member {
+  text-align: center;
+  flex: 1;
+}
+
+.team-member img {
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+}
+
